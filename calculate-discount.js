@@ -6,7 +6,7 @@ var ContainerTypes;
 var discounts = [
     {
         name: "Save the Environment Discount",
-        order: 1,
+        order: 1, // comment
         rule: function (totalPayment, hasBioFuel) {
             return hasBioFuel ? totalPayment * 0.99 : totalPayment;
         },
